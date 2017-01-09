@@ -33,18 +33,30 @@
     
     [self.view addSubview:tab];
     
-    UIView *headView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 260)];
-    headView.backgroundColor = [UIColor yellowColor];
+    UIView *headView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 270)];
+    headView.backgroundColor = [UIColor colorWithRed:238/255.0 green:238/255.0 blue:238/255.0 alpha:1];
     tab.tableHeaderView = headView;
     
     _bannerImgView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 220)];
     _bannerImgView.userInteractionEnabled = YES;
+    _bannerImgView.image = [UIImage imageNamed:@"suzhou.jpg"];
     _bannerImgView.tag = 1;
-
     [headView addSubview:_bannerImgView];
     
-    UILabel *lab = [[UILabel alloc]initWithFrame:CGRectMake(30,_bannerImgView.xx_bottom, SCREEN_WIDTH-30, 40)];
-    lab.text = @"120条蜂友评论";
+    UILabel *imgNameLab = [UILabel new];
+    imgNameLab.text = @"天安门广场";
+    imgNameLab.font = [UIFont boldSystemFontOfSize:20];
+    imgNameLab.textColor = [UIColor whiteColor];
+    [_bannerImgView addSubview:imgNameLab];
+    
+    [imgNameLab mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.bottom.mas_equalTo(imgNameLab.superview).offset(-10);
+        make.left.mas_equalTo(imgNameLab.superview).offset(20);
+    }];
+    
+    UILabel *lab = [[UILabel alloc]initWithFrame:CGRectMake(0,_bannerImgView.xx_bottom, SCREEN_WIDTH, 40)];
+    lab.text = @"       120条蜂友评论";
+    lab.backgroundColor = [UIColor whiteColor];
     lab.tag = 2;
     lab.userInteractionEnabled = YES;
     lab.font = [UIFont boldSystemFontOfSize:17];

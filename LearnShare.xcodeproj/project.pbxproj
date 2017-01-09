@@ -191,7 +191,6 @@
 		1AA552091D6FDF4900FD4831 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA552081D6FDF4900FD4831 /* AppDelegate.m */; };
 		1AA552111D6FDF4900FD4831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AA552101D6FDF4900FD4831 /* Assets.xcassets */; };
 		1AA552141D6FDF4900FD4831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA552121D6FDF4900FD4831 /* LaunchScreen.storyboard */; };
-		1AB9E1DA1D707B7F00B4542C /* LearnShareUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB9E1D91D707B7F00B4542C /* LearnShareUserInfo.m */; };
 		902AD3AB1DD186AB00AF0C16 /* TravelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 902AD3A91DD186AB00AF0C16 /* TravelTableViewCell.m */; };
 		902AD3AC1DD186AB00AF0C16 /* TravelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 902AD3AA1DD186AB00AF0C16 /* TravelTableViewCell.xib */; };
 		902AD3AF1DD186F700AF0C16 /* TravelDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 902AD3AE1DD186F700AF0C16 /* TravelDetailViewController.m */; };
@@ -205,6 +204,8 @@
 		90C34F4A1D9D6F6400B9A99A /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90C34F481D9D6F6400B9A99A /* MainTableViewCell.xib */; };
 		C495309330351F369A59D8DF /* libPods-LearnShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D21644F9B0789486386C29 /* libPods-LearnShare.a */; };
 		DA0AC9EA1E136CEA0032EBCC /* NSString+Expend.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0AC9E91E136CEA0032EBCC /* NSString+Expend.m */; };
+		DA91BEF11E2329870019098B /* IVIMobileDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA91BEF01E2329870019098B /* IVIMobileDataManager.m */; };
+		DAF4D4F31E13894E009ED522 /* suzhou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DAF4D4F21E13894E009ED522 /* suzhou.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -466,8 +467,6 @@
 		1AA552131D6FDF4900FD4831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AA552151D6FDF4900FD4831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AA5522B1D6FE0FF00FD4831 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
-		1AB9E1D81D707B7F00B4542C /* LearnShareUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearnShareUserInfo.h; sourceTree = "<group>"; };
-		1AB9E1D91D707B7F00B4542C /* LearnShareUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearnShareUserInfo.m; sourceTree = "<group>"; };
 		30D21644F9B0789486386C29 /* libPods-LearnShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LearnShare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E08E14172A4EBE544FB5DE6 /* Pods-LearnShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnShare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnShare/Pods-LearnShare.debug.xcconfig"; sourceTree = "<group>"; };
 		902AD3A81DD186AB00AF0C16 /* TravelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelTableViewCell.h; sourceTree = "<group>"; };
@@ -491,6 +490,9 @@
 		90C34F481D9D6F6400B9A99A /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
 		DA0AC9E81E136CEA0032EBCC /* NSString+Expend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Expend.h"; sourceTree = "<group>"; };
 		DA0AC9E91E136CEA0032EBCC /* NSString+Expend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Expend.m"; sourceTree = "<group>"; };
+		DA91BEEF1E2329870019098B /* IVIMobileDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IVIMobileDataManager.h; sourceTree = "<group>"; };
+		DA91BEF01E2329870019098B /* IVIMobileDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVIMobileDataManager.m; sourceTree = "<group>"; };
+		DAF4D4F21E13894E009ED522 /* suzhou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = suzhou.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -776,6 +778,7 @@
 		1A40D8401D7294A000FC738F /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				DAF4D4F21E13894E009ED522 /* suzhou.jpg */,
 				1A40D8411D7294A000FC738F /* MainViewController.h */,
 				1A40D8421D7294A000FC738F /* MainViewController.m */,
 				90378BA91DCB193900E45564 /* FoodViewController.h */,
@@ -1120,8 +1123,7 @@
 		1AA552311D6FE4EC00FD4831 /* other */ = {
 			isa = PBXGroup;
 			children = (
-				1AB9E1D81D707B7F00B4542C /* LearnShareUserInfo.h */,
-				1AB9E1D91D707B7F00B4542C /* LearnShareUserInfo.m */,
+				DA91BEEE1E2329870019098B /* DataManager */,
 				1A84C7411D79388A009B8A5C /* FunctionModule */,
 				1A40D80E1D7289AD00FC738F /* Base */,
 			);
@@ -1145,6 +1147,15 @@
 				0DFFD9DB61D3519062A0D82C /* Pods-LearnShare.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA91BEEE1E2329870019098B /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				DA91BEEF1E2329870019098B /* IVIMobileDataManager.h */,
+				DA91BEF01E2329870019098B /* IVIMobileDataManager.m */,
+			);
+			path = DataManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1299,6 +1310,7 @@
 				1A93BE281D83CF2000239BA8 /* [63].png in Resources */,
 				1A93BE271D83CF2000239BA8 /* [62].png in Resources */,
 				1A93BDCD1D83CF2000239BA8 /* [67].gif in Resources */,
+				DAF4D4F31E13894E009ED522 /* suzhou.jpg in Resources */,
 				1A93BE171D83CF2000239BA8 /* [48].png in Resources */,
 				1A93BE0B1D83CF2000239BA8 /* [37].png in Resources */,
 				1A93BE0C1D83CF2000239BA8 /* [38].png in Resources */,
@@ -1385,7 +1397,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AB9E1DA1D707B7F00B4542C /* LearnShareUserInfo.m in Sources */,
 				1A58EC331D7680FF005B37BD /* M80AttributedLabelAttachment.m in Sources */,
 				1A40D84C1D72B08100FC738F /* BaseViewController.m in Sources */,
 				DA0AC9EA1E136CEA0032EBCC /* NSString+Expend.m in Sources */,
@@ -1460,6 +1471,7 @@
 				1A58EC321D7680FF005B37BD /* M80AttributedLabel.m in Sources */,
 				1A93BDC61D83CF2000239BA8 /* ChatToolBarView.m in Sources */,
 				1A58EC451D76A828005B37BD /* UIViewController+BaseNavigationController.m in Sources */,
+				DA91BEF11E2329870019098B /* IVIMobileDataManager.m in Sources */,
 				1A40D7E71D72860A00FC738F /* MJRefreshBackGifFooter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

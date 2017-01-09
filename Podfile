@@ -10,4 +10,6 @@ pod 'SMPageControl','~>1.2'
 
 pod 'AFNetworking','~> 3.1.0'
 
+pod 'test02',:git => 'https://github.com/james1896/test02'
+
 end
