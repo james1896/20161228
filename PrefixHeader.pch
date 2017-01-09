@@ -26,7 +26,7 @@
 
 #import "UIViewController+BaseNavigationController.h"
 
-#include "LearnShareUserInfo.h"
+#include "IVIMobileDataManager.h"
 #import "UIView+Attribute.h"
 #import "Masonry.h"
 #import "NSString+Expend.h"

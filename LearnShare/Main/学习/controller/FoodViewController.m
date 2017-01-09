@@ -51,7 +51,8 @@
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-
+self.detailController.title = @"XX食府";
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
     [self.navigationController pushViewController: self.detailController animated:YES];
 }
 

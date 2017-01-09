@@ -205,6 +205,7 @@
 		C495309330351F369A59D8DF /* libPods-LearnShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D21644F9B0789486386C29 /* libPods-LearnShare.a */; };
 		DA0AC9EA1E136CEA0032EBCC /* NSString+Expend.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0AC9E91E136CEA0032EBCC /* NSString+Expend.m */; };
 		DA91BEF11E2329870019098B /* IVIMobileDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA91BEF01E2329870019098B /* IVIMobileDataManager.m */; };
+		DA91BEF31E232DB10019098B /* meishi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA91BEF21E232DB10019098B /* meishi.jpg */; };
 		DAF4D4F31E13894E009ED522 /* suzhou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DAF4D4F21E13894E009ED522 /* suzhou.jpg */; };
 /* End PBXBuildFile section */
 
@@ -492,6 +493,7 @@
 		DA0AC9E91E136CEA0032EBCC /* NSString+Expend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Expend.m"; sourceTree = "<group>"; };
 		DA91BEEF1E2329870019098B /* IVIMobileDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IVIMobileDataManager.h; sourceTree = "<group>"; };
 		DA91BEF01E2329870019098B /* IVIMobileDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVIMobileDataManager.m; sourceTree = "<group>"; };
+		DA91BEF21E232DB10019098B /* meishi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meishi.jpg; sourceTree = "<group>"; };
 		DAF4D4F21E13894E009ED522 /* suzhou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = suzhou.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -778,6 +780,7 @@
 		1A40D8401D7294A000FC738F /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				DA91BEF21E232DB10019098B /* meishi.jpg */,
 				DAF4D4F21E13894E009ED522 /* suzhou.jpg */,
 				1A40D8411D7294A000FC738F /* MainViewController.h */,
 				1A40D8421D7294A000FC738F /* MainViewController.m */,
@@ -1218,6 +1221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA91BEF31E232DB10019098B /* meishi.jpg in Resources */,
 				1A93BE181D83CF2000239BA8 /* [49].png in Resources */,
 				1A93BE151D83CF2000239BA8 /* [46].png in Resources */,
 				1A93BE061D83CF2000239BA8 /* [32].png in Resources */,

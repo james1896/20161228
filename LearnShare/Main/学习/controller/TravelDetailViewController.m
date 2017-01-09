@@ -115,7 +115,6 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     UITableViewCell *cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
     
-    
     NSString *content = self.dataArray[indexPath.row];
     UILabel *lab = [[UILabel alloc]init];
     lab.font = [UIFont systemFontOfSize:15];
